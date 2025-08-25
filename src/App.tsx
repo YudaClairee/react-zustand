@@ -1,8 +1,14 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import TodoForm from "./components/todo-form";
+import TodoList from "./todo-list";
 
 function App() {
-  return <Counter />;
+  return (
+    <>
+      <TodoForm />
+      <TodoList />
+    </>
+  );
 }
 
 export default App;
